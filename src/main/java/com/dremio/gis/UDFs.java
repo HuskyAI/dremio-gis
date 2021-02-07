@@ -18,7 +18,7 @@ public class UDFs {
 //        org.apache.arrow.vector.holders.VarBinaryHolder out;
 //
 //        @Inject
-//        io.netty.buffer.ArrowBuf buffer;
+//        org.apache.arrow.memory.ArrowBuf buffer;
 //
 //        public void setup() {
 //        }
@@ -51,7 +51,7 @@ public class UDFs {
 //        org.apache.arrow.vector.holders.VarCharHolder out;
 //
 //        @Inject
-//        io.netty.buffer.ArrowBuf buffer;
+//        org.apache.arrow.memory.ArrowBuf buffer;
 //
 //        public void setup() {
 //        }

@@ -34,7 +34,7 @@ public class STYFunc implements SimpleFunction {
   org.apache.arrow.vector.holders.Float8Holder out;
 
   @Inject
-  io.netty.buffer.ArrowBuf buffer;
+  org.apache.arrow.memory.ArrowBuf buffer;
 
   public void setup() {
   }

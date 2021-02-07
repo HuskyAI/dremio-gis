@@ -40,7 +40,7 @@ public class STRelate implements SimpleFunction {
   org.apache.arrow.vector.holders.BitHolder out;
 
   @Inject
-  io.netty.buffer.ArrowBuf buffer;
+  org.apache.arrow.memory.ArrowBuf buffer;
 
   public void setup() {
   }
