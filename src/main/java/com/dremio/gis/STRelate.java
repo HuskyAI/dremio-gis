@@ -48,7 +48,7 @@ public class STRelate implements SimpleFunction {
   public void eval() {
     com.esri.core.geometry.ogc.OGCGeometry geom1;
     com.esri.core.geometry.ogc.OGCGeometry geom2;
-    String matrix = StringFunctionHelpers.toStringFromUTF8(matrixParam.start,
+    String matrix = com.dremio.gis.StringFunctionHelpers.toStringFromUTF8(matrixParam.start,
         matrixParam.end, matrixParam.buffer);
 
     geom1 = com.esri.core.geometry.ogc.OGCGeometry

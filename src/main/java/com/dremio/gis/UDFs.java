@@ -24,7 +24,7 @@ public class UDFs {
 //        }
 //
 //        public void eval() {
-//            String wktText = StringFunctionHelpers.toStringFromUTF8(input.start, input.end,
+//            String wktText = com.dremio.gis.StringFunctionHelpers.toStringFromUTF8(input.start, input.end,
 //                    input.buffer);
 //
 //            com.esri.core.geometry.ogc.OGCGeometry geom;
